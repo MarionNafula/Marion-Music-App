@@ -1,0 +1,83 @@
+
+.remove-button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.like-button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}    
+
+input[type="text"] {  
+  margin-top:  20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+.dislike-button {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}      
+
+.remove-button:hover{  
+  background-color: darkred
+  
+}
+
+.like-button:hover {
+  background-color: darkgreen;
+  
+}
+
+.dislike-button:hover {
+  background-color: darkorange;
+  
+}        
+
+.card-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;   
+  width: 400px;  
+  height: 400px;   
+  padding: 100px;    
+  color:black
+  
+}
+
+.card-container .card {
+  border: 1px solid black;   
+}   
+  
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
